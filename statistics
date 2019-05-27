@@ -1,9 +1,11 @@
 Solved:
 
 May 2019:
-26 - 53, 26
+26 - 53, 26, 122
+27 - 443, 204
 
 Done with help:
+204 - did not pass timeout (non efficient solution with hashmap)
 
 Done by myself but need attention:
-
+122 - did mistake in calculations

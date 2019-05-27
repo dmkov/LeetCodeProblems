@@ -1,4 +1,4 @@
-package string.count_and_say_38;
+package string.easy.count_and_say_38;
 
 /**
  38. Count and Say
