@@ -3,7 +3,7 @@ Solved:
 May 2019:
 26 - 53, 26, 122
 27 - 443, 204
-28 - 350, 11
+28 - 350, 11, 345
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
