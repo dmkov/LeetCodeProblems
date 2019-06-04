@@ -44,7 +44,6 @@ package stack.easy.backspace_string_compare_844;
         2.2.1 Check if strings are not null.
         2.2.2 Compute strings without backslashes and compare them.
         2.2.3 To compute - use StringBuilder with append() and deleteCharAt() methods.
-
  */
 class Solution {
     public boolean backspaceCompare(String S, String T) {

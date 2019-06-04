@@ -10,12 +10,16 @@ May 2019:
 
 June 2019:
 3 - 844
+4 - 496, 232, 35
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
 11 - did not find the best solution (n^2 instead of n)
+496 - did not think about hashmap initially to speed up the iteration
+232 - did not consider option to move items only when the second stack is empty to amortize pop()/peak() methods
 
 Done by myself but need attention:
 122 - did mistake in calculations
 374 - while condition should be inclusive - while (min <= max) - in case of array with one element
 100 - recursion check is more simple and efficient than migration to the array
+35 - did not notice that with right shift result should be additionally incremented
