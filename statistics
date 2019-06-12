@@ -12,6 +12,8 @@ June 2019:
 3 - 844
 4 - 496, 232, 35
 5 - 14
+11 - 530
+12 - 437, 530
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -19,6 +21,7 @@ Done with help:
 496 - did not think about hashmap initially to speed up the iteration
 232 - did not consider option to move items only when the second stack is empty to amortize pop()/peak() methods
 530 - did not consider better option with O(n) complexity. Implemented nlog(n) instead.
+437 - did not consider option with hashmap and O(n) complexity. Implemented n^2 instead
 
 Done by myself but need attention:
 122 - did mistake in calculations

@@ -62,7 +62,7 @@ class Solution {
         }
         inorderTraverse(root.left);
         if (prev != null) {
-            diff = Math.min(diff, root.val - prev);
+            diff = Math.min(diff, Math.abs(root.val - prev));
         }
         prev = root.val;
         inorderTraverse(root.right);

@@ -20,6 +20,7 @@ Thumbs.db
 # === Maven ===
 log/
 target/
+out/
 
 # === Compiled class file ===
 *.class
