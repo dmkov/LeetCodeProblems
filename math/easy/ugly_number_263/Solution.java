@@ -29,11 +29,11 @@ package math.easy.ugly_number_263;
 ---
 
  1. Complexity
-    1.1 Time Complexity is O(logn) because of binary search approach
+    1.1 Time Complexity is O(n) where n is number of factors
     1.2 Space Complexity is O(1)
  2. Approach
-    2.1 The idea is based on formula for S = (A1 + An)*n/2. Because of n = An and A1 = 1, it will be S = (1 + n)*n/2
-    2.2 Using binary search, check S in the range of values and find the the answer.
+    2.1 The idea is to check 5, 3 and 2 as possible factors until the number gets to 1 (or -1).
+    2.2 If any of listed factors are not possible to use, then it is not an ugly number
 
  */
 public class Solution {

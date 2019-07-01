@@ -17,7 +17,10 @@ June 2019:
 15 - 976
 16 - 441
 17 - 171, 883
-18 - 263, 235
+18 - 263, 235, 155
+
+July 2019
+1 - 112
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -28,6 +31,7 @@ Done with help:
 437 - did not consider option with hashmap and O(n) complexity. Implemented n^2 instead
 976 - missed idea of that the sum of two other lengths should be greater than the largest length in the triangle
 441 - did not know formula for arithmetic progression
+155 - did not consider option to create class to keep both value and minimum numbers
 
 Done by myself but need attention:
 122 - did mistake in calculations
