@@ -23,6 +23,7 @@ July 2019
 1 - 112
 2 - 623
 3 - 268
+4 - 367, 645
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -41,3 +42,4 @@ Done by myself but need attention:
 100 - recursion check is more simple and efficient than migration to the array
 35 - did not notice that with right shift result should be additionally incremented
 922 - did not think about iterating only even indexes (i+2)
+367 - overflow for integer (mid*mid). always consider overflows and edge cases.
