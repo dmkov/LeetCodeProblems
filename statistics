@@ -27,6 +27,7 @@ July 2019
 6 - 455
 7 - 160, 200
 23 - 438
+30 - 198
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -39,6 +40,7 @@ Done with help:
 441 - did not know formula for arithmetic progression
 155 - did not consider option to create class to keep both value and minimum numbers
 438 - sliding window approach. should be reviewed with extra attention to counters and hash map conditions
+198 - almost got solution but did not think about dynamic programming approach
 
 Done by myself but need attention:
 122 - did mistake in calculations
