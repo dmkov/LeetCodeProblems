@@ -28,6 +28,7 @@ July 2019
 7 - 160, 200
 23 - 438
 30 - 198
+31 - 226
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -51,3 +52,4 @@ Done by myself but need attention:
 367 - overflow for integer (mid*mid). always consider overflows and edge cases.
 160 - did not consider more efficient solution with two pointers
 200 - did not consider option to use the same array to save space
+226 - remember queue method in the linked list (pop, add and so on)
