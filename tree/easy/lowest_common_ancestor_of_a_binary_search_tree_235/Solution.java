@@ -1,7 +1,5 @@
 package tree.easy.lowest_common_ancestor_of_a_binary_search_tree_235;
 
-import com.sun.source.tree.Tree;
-
 /**
  235. Lowest Common Ancestor of a Binary Search Tree
  https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
