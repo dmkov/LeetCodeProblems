@@ -34,7 +34,8 @@ August 2019
 1 - 283
 2 - 448, 238
 3 - 538
-4 - 234
+4 - 234, 169
+5 - 543
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -62,3 +63,5 @@ Done by myself but need attention:
 226 - remember queue method in the linked list (pop, add and so on)
 448 - after modification of the current list, we need to take abs() value to avoid negatives and index out of bounds
 538 - initially did not think about simple right-order traversal
+169 - check Boyer-Moore Voting Algorithm for more efficient space usage
+543 - diameter for tree is sum of children depths for every node
