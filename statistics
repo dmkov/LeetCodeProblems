@@ -38,7 +38,7 @@ August 2019
 5 - 543, 617
 12 - 104
 13 - 136, 581
-17 - 21, 70, 101
+17 - 21, 70, 101, 118
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
