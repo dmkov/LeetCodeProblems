@@ -38,7 +38,7 @@ August 2019
 5 - 543, 617
 12 - 104
 13 - 136, 581
-17 - 21
+17 - 21, 70, 101
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -55,6 +55,8 @@ Done with help:
 234 - did not consider possible solution with slow and fast pointers. remind part to reverse lists.
 136 - did not think about possible XOR operation
 581 - did not consider option to clone and sort array. for left/right bounds did not think about max/min elements
+70 - did not find the pattern last steps plus one before the last
+101 - did not consider idea with stack. for recursive solution there is much simpler approach than StringBuilder
 
 Done by myself but need attention:
 122 - did mistake in calculations
