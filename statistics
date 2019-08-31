@@ -42,7 +42,7 @@ August 2019
 18 - 217
 19 - 326
 25 - 234, 287
-31 - 221
+31 - 221, 230
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -79,3 +79,4 @@ Done by myself but need attention:
 169 - check Boyer-Moore Voting Algorithm for more efficient space usage
 543 - diameter for tree is sum of children depths for every node
 21 - did not consider that should return first node of the result
+230 - more elegant way of in-order traverse
