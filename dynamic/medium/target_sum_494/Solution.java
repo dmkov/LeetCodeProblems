@@ -1,32 +1,30 @@
-package greedy.easy.assign_cookies_455;
-
-import java.util.Arrays;
+package dynamic.medium.target_sum_494;
 
 /**
- 455. Assign Cookies
- https://leetcode.com/problems/assign-cookies/
+ 494. Target Sum
+ https://leetcode.com/problems/target-sum/
 
- Assume you are an awesome parent and want to give your children some cookies. But, you should give each child at most one cookie. Each child i has a greed factor gi, which is the minimum size of a cookie that the child will be content with; and each cookie j has a size sj. If sj >= gi, we can assign the cookie j to the child i, and the child i will be content. Your goal is to maximize the number of your content children and output the maximum number.
+ You are given a list of non-negative integers, a1, a2, ..., an, and a target, S.
+ Now you have 2 symbols + and -. For each integer, you should choose one from + and - as its new symbol.
 
- Note:
- You may assume the greed factor is always positive.
- You cannot assign more than one cookie to one child.
+ Find out how many ways to assign symbols to make sum of integers equal to target S.
 
  Example 1:
- Input: [1,2,3], [1,1]
- Output: 1
+ Input: nums is [1, 1, 1, 1, 1], S is 3.
+ Output: 5
 
- Explanation: You have 3 children and 2 cookies. The greed factors of 3 children are 1, 2, 3.
- And even though you have 2 cookies, since their size is both 1, you could only make the child whose greed factor is 1 content.
- You need to output 1.
+ Explanation:
+ -1+1+1+1+1 = 3
+ +1-1+1+1+1 = 3
+ +1+1-1+1+1 = 3
+ +1+1+1-1+1 = 3
+ +1+1+1+1-1 = 3
 
- Example 2:
- Input: [1,2], [1,2,3]
- Output: 2
-
- Explanation: You have 2 children and 3 cookies. The greed factors of 2 children are 1, 2.
- You have 3 cookies and their sizes are big enough to gratify all of the children,
- You need to output 2.
+ There are 5 ways to assign symbols to make the sum of nums be target 3.
+ Note:
+ The length of the given array is positive and will not exceed 20.
+ The sum of elements in the given array will not exceed 1000.
+ Your output answer is guaranteed to be fitted in a 32-bit integer.
 
  --------
 
@@ -41,26 +39,30 @@ import java.util.Arrays;
  */
 
 class Solution {
-    public int findContentChildren(int[] g, int[] s) {
-        if (g.length == 0 || s.length == 0) {
+    public int findTargetSumWays(int[] nums, int S) {
+        if (nums == null || nums.length == 0) {
             return 0;
         }
 
-        int result = 0;
-        int j = 0;
+        int[][] opts = new int[nums.length][];
+        opts[0] = new int[]{nums[0], -nums[0]};
 
-        Arrays.sort(g);
-        Arrays.sort(s);
+        for (int i = 1; i < nums.length; i++) {
+            int size = opts[i - 1].length * 2;
+            int[] current = new int[size];
 
-        for (int i = 0; i < g.length; i++) {
-            while (j < s.length && g[i] > s[j]) {
-                j++;
+            for (int k = 0; k < size; k = k + 2) {
+                int val = opts[i - 1][k / 2];
+                current[k] = val + nums[i];
+                current[k + 1] = val - nums[i];
             }
-            if (s.length > j) {
+            opts[i] = current;
+        }
+
+        int result = 0;
+        for (int sum: opts[opts.length - 1]) {
+            if (sum == S) {
                 result++;
-                j++;
-            } else {
-                break;
             }
         }
         return result;
