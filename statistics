@@ -69,6 +69,7 @@ Done with help:
 101 - did not consider idea with stack. for recursive solution there is much simpler approach than StringBuilder
 326 - did not consider logarithmic solution. solved with the loop
 287 - did not consider the second part where entrance to the loop should be found
+96 - issues with combinatorics and BST definition to select the root node
 
 Done by myself but need attention:
 122 - did mistake in calculations
