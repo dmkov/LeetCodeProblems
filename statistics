@@ -49,7 +49,14 @@ November 2019
 5 - 119
 7 - 643
 25 - 110
-26 - 102
+26 - 96
+27 - 102
+28 - 222
+30 - 200
+
+December 2019
+1 - 430
+8 - 10
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -71,6 +78,7 @@ Done with help:
 326 - did not consider logarithmic solution. solved with the loop
 287 - did not consider the second part where entrance to the loop should be found
 96 - issues with combinatorics and BST definition to select the root node
+222 - did not consider option to binary search in the tree
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -88,6 +96,8 @@ Done by myself but need attention:
 543 - diameter for tree is sum of children depths for every node
 21 - did not consider that should return first node of the result
 230 - more elegant way of in-order traverse
+430 - did not consider idea to reorder list with the stack
+10 - did not consider that '*' quantifier can be matched 0 string. integer array for memo.
 
 
 What was learned:
