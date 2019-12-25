@@ -58,6 +58,10 @@ December 2019
 1 - 430
 8 - 10
 10 - 103
+11 - 94
+15 - 116
+24 - 341
+25 - 191
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -82,6 +86,8 @@ Done with help:
 222 - did not consider option to binary search in the tree
 889 - did not consider option to search for the root node in post-ordered tree.
 103 - did not consider solution with two stacks
+94 - did not consider solution with the stack
+341 - thought about empty list as a possible null in the result.
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -108,3 +114,19 @@ What was learned:
       2) add() / remove() methods for LinkedList. The last one returns element
       3) Level traverse can be done with one queue and without recursion. Use queue.size() to split the current level
          from new elements.
+    - Write down all length / length() / size() methods in main structures
+    - check definitions of possible traverses (postorder traverse)
+222 - binary search (mid with plus or not, less or equal and so on)
+    - Math.pow - returns double and should be casted to int
+    - name of traverses
+200 - char is formatted by single quote
+10  - substring() method with one argument for the string.
+    - we can use 2d integer array for memo if we have pair of values
+889 - there is Arrays.copyOfRange() method that can be used to make copies in recursive calls
+103 - stack methods pop() and push()
+94  - iterative traverse of the tree can be done with a stack
+112 - object does not have default value - assign it to null manually (initialization error)
+341 - list.iterator() can be used with next() and hasNext() methods
+    - properties of the class are initialized to null (with no initialization error at startup)
+191 - integer number consist of 32 bits
+    - bitwise operation ''(n & 1) == 1' should be put into brackets in logical condition
