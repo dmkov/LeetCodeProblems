@@ -64,6 +64,7 @@ December 2019
 25 - 191, 371
 26 - 190
 27 - 240
+29 - 253
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -90,6 +91,7 @@ Done with help:
 103 - did not consider solution with two stacks
 94 - did not consider solution with the stack
 341 - thought about empty list as a possible null in the result.
+259 - in-built sorting for collections
 
 Done by myself but need attention:
 122 - did mistake in calculations
