@@ -68,6 +68,7 @@ December 2019
 
 January 2020
 5 - 347
+6 - 401
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -96,6 +97,7 @@ Done with help:
 341 - thought about empty list as a possible null in the result.
 259 - in-built sorting for collections
 347 - did not consider simpler PriorityQueue solution
+401 - did not consider that permutation can be done with backtracking approach
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -138,7 +140,8 @@ What was learned:
 341 - list.iterator() can be used with next() and hasNext() methods
     - properties of the class are initialized to null (with no initialization error at startup)
 191 - integer number consist of 32 bits
-    - bitwise operation '(n & 1) == 1' should be put into brackets in logical condition
+    - all bitwise operation '(n & 1) == 1' should be always put into brackets in logical condition
 190 - after masking the bit, compare it with '0' and not '> 0' because of numbers with leading '1' are negative.
 240 - if description says that the data is sorted the task almost always can be solved with the binary search.
 347 - in-built PriorityQueue class to get the max "k" elements.
+401 - if we need only one bit in the number, we can use integer presentation {1, 2, 4, 8 ...}.
