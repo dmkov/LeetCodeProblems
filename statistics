@@ -68,7 +68,7 @@ December 2019
 
 January 2020
 5 - 347
-6 - 401
+6 - 401, 2
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -145,3 +145,4 @@ What was learned:
 240 - if description says that the data is sorted the task almost always can be solved with the binary search.
 347 - in-built PriorityQueue class to get the max "k" elements.
 401 - if we need only one bit in the number, we can use integer presentation {1, 2, 4, 8 ...}.
+2   - to get modulo (%) from divizion by 10 we can always perform (x % 10). If it is less than 10, it will return the current value
