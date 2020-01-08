@@ -69,7 +69,7 @@ December 2019
 January 2020
 5 - 347
 6 - 401, 2
-7 - 3
+7 - 3, 973
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -120,6 +120,7 @@ Done by myself but need attention:
 430 - did not consider idea to reorder list with the stack
 10 - did not consider that '*' quantifier can be matched 0 string. integer array for memo.
 240 - did not consider better idea with search space reduction algorithm
+973 - divide and conquer (partitioning) is more efficient than sorting
 
 
 What was learned:
@@ -149,3 +150,7 @@ What was learned:
 401 - if we need only one bit in the number, we can use integer presentation {1, 2, 4, 8 ...}.
 2   - to get modulo (%) from dividing by 10 we can always perform (x % 10). If it is less than 10, it will return the current value
 3   - array with ASCII codes as indexes can be used to compare characters in string. Alphabet consists of 26 letters, 'A' starts at 65, 'a' at 97
+973 - to initiate two-dimensional array the first dimension length should be specified (int[][] arr = new int[X][])
+    - comparator returns int but if we have float values they should be additionally casted or own logic should be placed there
+    - always check the variable types!
+    - heapsort is better than quicksort if we need only first K elements (NlogK complexity)
