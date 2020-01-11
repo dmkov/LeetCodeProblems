@@ -70,7 +70,8 @@ January 2020
 5 - 347
 6 - 401, 2
 7 - 3, 973
-8 - 348
+8 - 348, 1099
+10 - 957
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -101,6 +102,7 @@ Done with help:
 347 - did not consider simpler PriorityQueue solution
 401 - did not consider that permutation can be done with backtracking approach
 3   - did not consider that we need two pointers and check again already passed characters for the new set
+957 - did not think about brute force loop as of solution and sis not improve it with memoization
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -155,3 +157,6 @@ What was learned:
     - comparator returns int but if we have float values they should be additionally casted or own logic should be placed there
     - always check the variable types!
     - heapsort is better than quicksort if we need only first K elements (NlogK complexity)
+1099 - if we need to find element in the array, the worst case is to sort it and find the value with binary search. it gives nlogn.
+957 - simply and brute force iterating can be also an answer but with memoization we can do it an efficient solution
+    - always start with the naive solution and try to improve it
