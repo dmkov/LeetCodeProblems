@@ -73,7 +73,7 @@ January 2020
 8 - 348, 1099
 10 - 957
 11 - 202, 937, 49
-12 - 31
+12 - 31, 56
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -127,6 +127,7 @@ Done by myself but need attention:
 240 - did not consider better idea with search space reduction algorithm
 973 - divide and conquer (partitioning) is more efficient than sorting
 31  - reverse items can sort elements in descending order with O(n) instead of O(nlog(n))
+56  - if crossing is found, check the max of both ends in case if one interval is inside the other.
 
 
 What was learned:
@@ -166,3 +167,4 @@ What was learned:
 937 - Arrays.sort can be done with the range
 49  - Nested structures should not be specified in variable initialization (List<List<String>> res = new ArrayList<>());
 31  - To sort elements in descending order we can reverse them to make ascending order with O(n)
+56  - for the task with intervals create one test case where one interval inside another
