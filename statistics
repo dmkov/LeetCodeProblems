@@ -74,6 +74,7 @@ January 2020
 10 - 957
 11 - 202, 937, 49
 12 - 31, 56
+13 - 34, 139
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -105,6 +106,7 @@ Done with help:
 401 - did not consider that permutation can be done with backtracking approach
 3   - did not consider that we need two pointers and check again already passed characters for the new set
 957 - did not think about brute force loop as of solution and sis not improve it with memoization
+139 - did not think about memoization in the loop
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -168,3 +170,5 @@ What was learned:
 49  - Nested structures should not be specified in variable initialization (List<List<String>> res = new ArrayList<>());
 31  - To sort elements in descending order we can reverse them to make ascending order with O(n)
 56  - for the task with intervals create one test case where one interval inside another
+139 - when you iterate options always think for memoization. it can improve even brute force solution
+    - if we have possible combinations in the description, the task probably can be solved with the dynamic programming
