@@ -76,6 +76,8 @@ January 2020
 12 - 31, 56
 13 - 34, 139
 14 - 138, 380, 120
+15 - 426, 228
+16 - 636
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -131,6 +133,7 @@ Done by myself but need attention:
 973 - divide and conquer (partitioning) is more efficient than sorting
 31  - reverse items can sort elements in descending order with O(n) instead of O(nlog(n))
 56  - if crossing is found, check the max of both ends in case if one interval is inside the other.
+636 - the main issue was due to the interval time calculation and messing indexes
 
 
 What was learned:
@@ -175,3 +178,4 @@ What was learned:
     - if we have possible combinations in the description, the task probably can be solved with the dynamic programming
 120 - try to reverse order in dp tasks, it might be more simpler and shorter
     - if bounds are complex, try to add if statements (even ternary version) for edge cases
+636 - always check variable types and types of function results with extra attention
