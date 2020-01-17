@@ -78,7 +78,7 @@ January 2020
 14 - 138, 380, 120
 15 - 426, 228
 16 - 636, 236
-17 - 318
+17 - 318, 78, 389
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -137,6 +137,7 @@ Done by myself but need attention:
 636 - the main issue was due to the interval time calculation and messing indexes
 236 - did not think about more efficient option without stack
 318 - did not think about simple iteration inside the array, did not use array to store lengths
+78  - did not consider option with bitwise mask
 
 
 What was learned:
@@ -184,3 +185,4 @@ What was learned:
 636 - always check variable types and types of function results with extra attention
 236 - if you need to return multiple results from the method, think about class property to store results
 318 - think about simple iteration first and then do optimization step by step
+389 - difference between strings can be found using bitwise ^ for all characters in both strings
