@@ -77,7 +77,8 @@ January 2020
 13 - 34, 139
 14 - 138, 380, 120
 15 - 426, 228
-16 - 636
+16 - 636, 236
+17 - 318
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -134,6 +135,8 @@ Done by myself but need attention:
 31  - reverse items can sort elements in descending order with O(n) instead of O(nlog(n))
 56  - if crossing is found, check the max of both ends in case if one interval is inside the other.
 636 - the main issue was due to the interval time calculation and messing indexes
+236 - did not think about more efficient option without stack
+318 - did not think about simple iteration inside the array, did not use array to store lengths
 
 
 What was learned:
@@ -179,3 +182,5 @@ What was learned:
 120 - try to reverse order in dp tasks, it might be more simpler and shorter
     - if bounds are complex, try to add if statements (even ternary version) for edge cases
 636 - always check variable types and types of function results with extra attention
+236 - if you need to return multiple results from the method, think about class property to store results
+318 - think about simple iteration first and then do optimization step by step
