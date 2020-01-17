@@ -78,7 +78,7 @@ January 2020
 14 - 138, 380, 120
 15 - 426, 228
 16 - 636, 236
-17 - 318, 78, 389
+17 - 318, 78, 389, 152
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -111,6 +111,7 @@ Done with help:
 3   - did not consider that we need two pointers and check again already passed characters for the new set
 957 - did not think about brute force loop as of solution and sis not improve it with memoization
 139 - did not think about memoization in the loop
+152 - did not consider solution with tracking min value for negative numbers
 
 Done by myself but need attention:
 122 - did mistake in calculations
