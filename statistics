@@ -81,6 +81,7 @@ January 2020
 17 - 318, 78, 389, 152
 19 - 767
 20 - 62, 5
+21 - 121, 256
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -143,6 +144,7 @@ Done by myself but need attention:
 236 - did not think about more efficient option without stack
 318 - did not think about simple iteration inside the array, did not use array to store lengths
 78  - did not consider option with bitwise mask
+256 - modified dp before ending of the iteration and messed up remaining calculations
 
 
 What was learned:
@@ -194,4 +196,4 @@ What was learned:
 767 - if not sure about converting types (for example int to char) - use casting, (char) for example
 5   - for dp tasks, try to solve it with the array for memoization or matrix with results to compute and use in the next iterations
     - try to point to all facts that you know - tell what you see and try to apply it somehow for the solution
-
+256 - optimization migth play bad thing, try to keep code as simple as possible, even if it is not so clean
