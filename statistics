@@ -81,7 +81,8 @@ January 2020
 17 - 318, 78, 389, 152
 19 - 767
 20 - 62, 5
-21 - 121, 256
+21 - 121, 256, 138
+22 - 357
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -117,6 +118,7 @@ Done with help:
 152 - did not consider solution with tracking min value for negative numbers
 767 - could not find final solution to populate string from the array
 5   - could not find the memoization pattern
+357 - did not consider that previous combinations should be added to the current product
 
 Done by myself but need attention:
 122 - did mistake in calculations
