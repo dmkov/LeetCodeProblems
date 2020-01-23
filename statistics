@@ -82,7 +82,8 @@ January 2020
 19 - 767
 20 - 62, 5
 21 - 121, 256, 138
-22 - 357
+22 - 357, 71, 146
+23 - 994
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -119,6 +120,7 @@ Done with help:
 767 - could not find final solution to populate string from the array
 5   - could not find the memoization pattern
 357 - did not consider that previous combinations should be added to the current product
+146 - did not consider idea to build own linked list instead of using LinkedList class
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -147,6 +149,7 @@ Done by myself but need attention:
 318 - did not think about simple iteration inside the array, did not use array to store lengths
 78  - did not consider option with bitwise mask
 256 - modified dp before ending of the iteration and messed up remaining calculations
+994 - sgould think better about edge cases
 
 
 What was learned:
@@ -199,3 +202,6 @@ What was learned:
 5   - for dp tasks, try to solve it with the array for memoization or matrix with results to compute and use in the next iterations
     - try to point to all facts that you know - tell what you see and try to apply it somehow for the solution
 256 - optimization migth play bad thing, try to keep code as simple as possible, even if it is not so clean
+71  - string builder prepending can be done with insert(0, string) but it is better to avoid it and simply do string concating
+146 - in design think about what data structure provide what time complexity, try to narrow to them in the solution
+994 - always think about edge cases, especially in easy task
