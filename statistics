@@ -83,7 +83,8 @@ January 2020
 20 - 62, 5
 21 - 121, 256, 138
 22 - 357, 71, 146
-23 - 994
+23 - 994, 349, 260
+24 - 959
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -121,6 +122,8 @@ Done with help:
 5   - could not find the memoization pattern
 357 - did not consider that previous combinations should be added to the current product
 146 - did not consider idea to build own linked list instead of using LinkedList class
+260 - did not consider if condition in bitwise operations to filter numbers by selected bit
+959 - did not consider union find approach to link nodes
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -204,4 +207,4 @@ What was learned:
 256 - optimization migth play bad thing, try to keep code as simple as possible, even if it is not so clean
 71  - string builder prepending can be done with insert(0, string) but it is better to avoid it and simply do string concating
 146 - in design think about what data structure provide what time complexity, try to narrow to them in the solution
-994 - always think about edge cases, especially in easy task
+994 - always think about edge cases, especially in easy task. check all of them in debugging phase
