@@ -85,7 +85,7 @@ January 2020
 22 - 357, 71, 146
 23 - 994, 349, 260
 24 - 959
-25 - 1042, 997, 1161
+25 - 1042, 997, 1161, 841
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
