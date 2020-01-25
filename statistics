@@ -85,6 +85,7 @@ January 2020
 22 - 357, 71, 146
 23 - 994, 349, 260
 24 - 959
+25 - 1042
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -152,7 +153,7 @@ Done by myself but need attention:
 318 - did not think about simple iteration inside the array, did not use array to store lengths
 78  - did not consider option with bitwise mask
 256 - modified dp before ending of the iteration and messed up remaining calculations
-994 - sgould think better about edge cases
+994 - should think better about edge cases
 
 
 What was learned:
