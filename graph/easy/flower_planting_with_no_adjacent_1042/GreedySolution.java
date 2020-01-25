@@ -1,4 +1,4 @@
-package graph.medium.flower_planting_with_no_adjacent_1042;
+package graph.easy.flower_planting_with_no_adjacent_1042;
 
 import java.util.HashSet;
 import java.util.LinkedList;
