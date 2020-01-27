@@ -86,7 +86,7 @@ January 2020
 23 - 994, 349, 260
 24 - 959
 25 - 1042, 997, 1161, 841
-27 - 20
+27 - 20, 503
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -126,6 +126,7 @@ Done with help:
 146 - did not consider idea to build own linked list instead of using LinkedList class
 260 - did not consider if condition in bitwise operations to filter numbers by selected bit
 959 - did not consider union find approach to link nodes
+503 - too complex cases with the stack usage
 
 Done by myself but need attention:
 122 - did mistake in calculations
