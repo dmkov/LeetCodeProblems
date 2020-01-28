@@ -87,7 +87,7 @@ January 2020
 24 - 959
 25 - 1042, 997, 1161, 841
 27 - 20, 503
-28 - 647, 415
+28 - 647, 415, 1130
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -128,6 +128,7 @@ Done with help:
 260 - did not consider if condition in bitwise operations to filter numbers by selected bit
 959 - did not consider union find approach to link nodes
 503 - too complex cases with the stack usage
+1130 - could not find a solution, returned back to the task couple times
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -187,6 +188,7 @@ What was learned:
 2   - to get modulo (%) from dividing by 10 we can always perform (x % 10). If it is less than 10, it will return the current value
 3   - array with ASCII codes as indexes can be used to compare characters in string. Alphabet consists of 26 letters, 'A' starts at 65, 'a' at 97
 973 - to initiate two-dimensional array the first dimension length should be specified (int[][] arr = new int[X][])
+    - instead of creating every subarray manually, it can be done by specifying second length (int[][] arr = new int[X][Y])
     - comparator returns int but if we have float values they should be additionally casted or own logic should be placed there
     - always check the variable types!
     - heapsort is better than quicksort if we need only first K elements (NlogK complexity)
