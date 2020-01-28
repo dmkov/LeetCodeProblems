@@ -87,6 +87,7 @@ January 2020
 24 - 959
 25 - 1042, 997, 1161, 841
 27 - 20, 503
+28 - 647, 415
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -212,3 +213,4 @@ What was learned:
 146 - in design think about what data structure provide what time complexity, try to narrow to them in the solution
 994 - always think about edge cases, especially in easy task. check all of them in debugging phase
 20  - mod operation is '%' (not x mod y :))
+415 - the overflow from sum is named 'carry' :)
