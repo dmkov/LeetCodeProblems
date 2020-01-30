@@ -89,7 +89,7 @@ January 2020
 27 - 20, 503
 28 - 647, 415, 1130
 29 - 819, 64
-30 - 322, 199
+30 - 322, 199, 901, 560
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -131,6 +131,7 @@ Done with help:
 959 - did not consider union find approach to link nodes
 503 - too complex cases with the stack usage
 1130 - could not find a solution, returned back to the task couple times
+560 - did not think about approach with cumulative sum of subarray
 
 Done by myself but need attention:
 122 - did mistake in calculations
