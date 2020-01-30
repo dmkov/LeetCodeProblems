@@ -88,6 +88,8 @@ January 2020
 25 - 1042, 997, 1161, 841
 27 - 20, 503
 28 - 647, 415, 1130
+29 - 819, 64
+30 - 322, 199
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -158,6 +160,8 @@ Done by myself but need attention:
 78  - did not consider option with bitwise mask
 256 - modified dp before ending of the iteration and messed up remaining calculations
 994 - should think better about edge cases
+322 - the upper bound in 'bottom to top' approach may lead to overflow after adding a new coin
+199 - edge case when the left node has deeper subtree than the right one
 
 
 What was learned:
@@ -216,3 +220,6 @@ What was learned:
 994 - always think about edge cases, especially in easy task. check all of them in debugging phase
 20  - mod operation is '%' (not x mod y :))
 415 - the overflow from sum is named 'carry' :)
+819 - simply regexp can help in the basic actions like word splitting
+322 - always check for integer overflow after adding a new amount to the input parameters
+    - primitive types in the array could not be sorted using a comparator
