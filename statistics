@@ -94,6 +94,7 @@ January 2020
 
 February 2020
 2 - 1155
+3 - 399, 969
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -230,3 +231,6 @@ What was learned:
 819 - simply regexp can help in the basic actions like word splitting
 322 - always check for integer overflow after adding a new amount to the input parameters
     - primitive types in the array could not be sorted using a comparator
+969 - if use Map.Entry always specify type in generic Map.Entry<Integer, Integer>
+    - PriorityQueue by default use Arrays.sort (so it is min heap). To use as max heap a comparator is needed
+    - Integer and Double should be compared usng equals, not ==
