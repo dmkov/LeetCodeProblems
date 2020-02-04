@@ -95,7 +95,7 @@ January 2020
 February 2020
 2 - 1155
 3 - 399, 969
-4 - 739
+4 - 739, 856
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -171,6 +171,7 @@ Done by myself but need attention:
 322 - the upper bound in 'bottom to top' approach may lead to overflow after adding a new coin
 199 - edge case when the left node has deeper subtree than the right one
 1007 - did not consider all test cases
+856 - did not consider simpler solution with bitwise shift
 
 
 What was learned:
