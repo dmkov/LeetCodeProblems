@@ -95,7 +95,7 @@ January 2020
 February 2020
 2 - 1155
 3 - 399, 969
-4 - 739, 856
+4 - 739, 856, 398
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -236,3 +236,4 @@ What was learned:
 969 - if use Map.Entry always specify type in generic Map.Entry<Integer, Integer>
     - PriorityQueue by default use Arrays.sort (so it is min heap). To use as max heap a comparator is needed
     - Integer and Double should be compared usng equals, not ==
+398 - random() function returns the double result and should be cast to int additionally
