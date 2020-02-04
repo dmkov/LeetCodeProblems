@@ -56,7 +56,7 @@ import java.util.PriorityQueue;
             https://leetcode.com/problems/pancake-sorting/discuss/214213/JavaC%2B%2BPython-Straight-Forward)
  */
 
-class MySolution {
+class HeapSolution {
     public List<Integer> pancakeSort(int[] arr) {
         List<Integer> result = new LinkedList<>();
         if (arr == null || arr.length == 0) {
