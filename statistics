@@ -97,7 +97,9 @@ February 2020
 3 - 399, 969
 4 - 739, 856, 398
 7 - 907
-8 - 22
+8 - 22, (3 from contest)
+9 - 1348, 1347
+10 - 42
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -143,6 +145,7 @@ Done with help:
 1155 - did not get idea of dp and messed up with memoization approach
 907 - did not consider idea with two stacks in once
 22  - did not consider simple idea with counting brackets. in dp version did not consider concat "(())(())" test case
+42  - did not figured out stack conditions from the beginning
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -243,3 +246,5 @@ What was learned:
 398 - random() function returns the double result and should be cast to int additionally
 907 - monotone stack can be easily used to find next/previous smallest elements in the array
 22  - think about simple brute force solution, do not try to improve everything from the beginning
+1348 - even for hard task, try to implement the brute force solution
+     - primitives can not be add to collection with objects by addAll(), should be cast one by one
