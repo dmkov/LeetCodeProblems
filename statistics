@@ -251,3 +251,4 @@ What was learned:
 1348 - even for hard task, try to implement the brute force solution
      - primitives can not be add to collection with objects by addAll(), should be cast one by one
 545 - all lists, stacks and other objects should initialized, at least to null at the beginning
+46  - size and capacity in the ArrayList are different terms (after creating an ArrayList, it should be populated manually)
