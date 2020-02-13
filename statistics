@@ -100,7 +100,7 @@ February 2020
 8 - 22, (3 from contest)
 9 - 1348, 1347
 10 - 42, 382
-13 - 545
+13 - 545, 46, 39
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -181,6 +181,7 @@ Done by myself but need attention:
 1007 - did not consider all test cases
 856 - did not consider simpler solution with bitwise shift
 545 - edge case for the binary tree, when not all leaves are not on the same level
+39  - initial version of code allowed duplicates in the result
 
 
 What was learned:
