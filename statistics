@@ -102,6 +102,7 @@ February 2020
 10 - 42, 382
 13 - 545, 46, 39
 14 - 647
+16 - 33
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -183,6 +184,7 @@ Done by myself but need attention:
 856 - did not consider simpler solution with bitwise shift
 545 - edge case for the binary tree, when not all leaves are not on the same level
 39  - initial version of code allowed duplicates in the result
+33  - need to ask if there is an option that given array is not rotated
 
 
 What was learned:
