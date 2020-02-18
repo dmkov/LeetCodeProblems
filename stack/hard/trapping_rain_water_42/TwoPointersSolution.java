@@ -1,4 +1,4 @@
-package stack.meduim.trapping_rain_water_42;
+package stack.hard.trapping_rain_water_42;
 
 /**
  42. Trapping Rain Water

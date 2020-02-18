@@ -104,7 +104,7 @@ February 2020
 14 - 647
 16 - 33
 17 - 17
-18 - 609, 735
+18 - 609, 735, 84
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -256,3 +256,4 @@ What was learned:
 545 - all lists, stacks and other objects should initialized, at least to null at the beginning
 46  - size and capacity in the ArrayList are different terms (after creating an ArrayList, it should be populated manually)
 609 - substring() variations with different parameters might be tricky. use the simplest and robust option
+84  - recursion solution requires O(n) space if memory stack is counted
