@@ -105,7 +105,7 @@ February 2020
 16 - 33
 17 - 17
 18 - 609, 735, 84
-19 - 394
+19 - 394, 891
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -152,6 +152,7 @@ Done with help:
 907 - did not consider idea with two stacks in once
 22  - did not consider simple idea with counting brackets. in dp version did not consider concat "(())(())" test case
 42  - did not figured out stack conditions from the beginning
+891 - did not consider O(n) math solution counting sequences before and after
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -258,3 +259,5 @@ What was learned:
 46  - size and capacity in the ArrayList are different terms (after creating an ArrayList, it should be populated manually)
 609 - substring() variations with different parameters might be tricky. use the simplest and robust option
 84  - recursion solution requires O(n) space if memory stack is counted
+891 - to get a positive number after integer overflow, add an modulo value and then make a modulo operation
+    - to do not calculate a power of 2 every time, use a pre-populated array with stored values
