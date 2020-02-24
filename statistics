@@ -108,6 +108,7 @@ February 2020
 19 - 394, 891
 20 - 464, 474
 21 - 698
+24 - 787
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -157,6 +158,7 @@ Done with help:
 891 - did not consider O(n) math solution counting sequences before and after
 464 - could not determine the condition of when first player wins (if the second player could not win with any options)
 698 - could not get from where to start - from populating cells or iterating numbers first
+787 - did not consider neither dp nor Dijkstra approaches
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -267,3 +269,5 @@ What was learned:
     - to do not calculate a power of 2 every time, use a pre-populated array with stored values
 464 - sometimes validation of input numbers requires computation
 698 - to do not create a copy of the array every time, we can update value and restore it after the recursive call
+787 - if we need to check different paths/options - try a knapsack approach to store previous values on every step
+    - Dijkstra algorithm can be implemented with min heap structure
