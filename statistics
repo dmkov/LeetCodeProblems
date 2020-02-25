@@ -108,7 +108,8 @@ February 2020
 19 - 394, 891
 20 - 464, 474
 21 - 698
-24 - 787
+24 - 787, 63, 1027
+25 - stack design
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
