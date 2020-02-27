@@ -111,7 +111,7 @@ February 2020
 24 - 787, 63, 1027
 25 - stack design
 26 - 1049, 539
-27 - 692, union-find
+27 - 692, union-find, tries
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
