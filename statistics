@@ -111,6 +111,7 @@ February 2020
 24 - 787, 63, 1027
 25 - stack design
 26 - 1049, 539
+27 - 692
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -200,6 +201,7 @@ Done by myself but need attention:
 33  - need to ask if there is an option that given array is not rotated
 735 - did not pay attention to the description that negative value is always going right and positive - left.
 539 - did not think about bucket sort to make it in linear time complexity
+692 - solved using sorting but did not think about max heap approach
 
 
 What was learned:
@@ -276,3 +278,4 @@ What was learned:
 787 - if we need to check different paths/options - try a knapsack approach to store previous values on every step
     - Dijkstra algorithm can be implemented with min heap structure
 539 - algorithm can be speed up to linear complexity with bucket sorting
+692 - sorting strings can be done using the default compareTo() method
