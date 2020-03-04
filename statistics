@@ -116,7 +116,9 @@ February 2020
 29 - 707, 212
 
 March 2020
-1 - sorting, 1105
+2 - sorting, 1105
+3 - merge sort
+4 - 332
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
