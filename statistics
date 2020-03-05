@@ -118,7 +118,8 @@ February 2020
 March 2020
 2 - sorting, 1105
 3 - merge sort
-4 - 332, 1181
+4 - 332, 1181, 1048
+5 - quick sort, pramp task
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
