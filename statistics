@@ -119,7 +119,7 @@ March 2020
 2 - sorting, 1105
 3 - merge sort
 4 - 332, 1181, 1048
-5 - quick sort, pramp task
+5 - quick sort, pramp task, 1027
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -213,6 +213,7 @@ Done by myself but need attention:
 692 - solved using sorting but did not think about max heap approach
 1105 - needed help to define cache key in up to bottom solution, could not figure out bottom to up approach
 1181 - missed test case where phrase starts and ends with the same word (match with the word itself)
+1027 - done from the second attempt
 
 
 What was learned:
