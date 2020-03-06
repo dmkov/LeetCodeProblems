@@ -120,6 +120,7 @@ March 2020
 3 - merge sort
 4 - 332, 1181, 1048
 5 - quick sort, pramp task, 1027
+6 - 37
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -172,6 +173,7 @@ Done with help:
 787 - did not consider neither dp nor Dijkstra approaches
 1049 - did not consider idea of backpack and plus/minus sum
 212 - did not think about reverse Trie for words instead of grid
+37 - did not think about all edge cases in the solution
 
 Done by myself but need attention:
 122 - did mistake in calculations
