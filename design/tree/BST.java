@@ -111,13 +111,25 @@ public class BST {
             } else if (node.right == null) {
                 return node.left;
             }
-            TreeNode minRight = min(node.right);
-            minRight.left = node.left;
-            node = node.right;
+            TreeNode t = node;
+            node = min(node.right);
+            node.right = deleteMin(t.right);
+            node.left = t.left;
         }
         node.count = ((node.left != null) ? (node.left.count) : 0)
                 + ((node.right != null) ? (node.right.count) : 0) + 1;
 
+        return node;
+    }
+
+    private TreeNode deleteMin(TreeNode node) {
+        if (node.left == null) {
+            return node.right;
+        }
+        node.left = deleteMin(node.left);
+
+        node.count = ((node.left != null) ? (node.left.count) : 0)
+                + ((node.right != null) ? (node.right.count) : 0) + 1;
         return node;
     }
 
