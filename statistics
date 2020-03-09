@@ -121,6 +121,8 @@ March 2020
 4 - 332, 1181, 1048
 5 - quick sort, pramp task, 1027
 6 - 37
+7 - 3 tasks from contest
+9 - BST, 1043
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -296,3 +298,4 @@ What was learned:
 212 - for Trie we can store the whole word and the last node instead just a boolean flag
     - if work with string characters in arrays, do not forget to subtract 'a' char from index
 1105 - for dp cache always count position and the current state of the elements
+1043 - for checking a higher bound in the interval iteration, use the second condition in if instead of max/min methods
