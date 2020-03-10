@@ -123,6 +123,7 @@ March 2020
 6 - 37
 7 - 3 tasks from contest
 9 - BST, 1043
+10 - pramp, 273
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -299,3 +300,4 @@ What was learned:
     - if work with string characters in arrays, do not forget to subtract 'a' char from index
 1105 - for dp cache always count position and the current state of the elements
 1043 - for checking a higher bound in the interval iteration, use the second condition in if instead of max/min methods
+273  - edge cases can be stored in arrays instead of long switch/cases or if statements
