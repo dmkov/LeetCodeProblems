@@ -7,9 +7,11 @@ public class HeapSort {
 
     public void sort(int[] arr) {
         MinHeap heap = new MinHeap(10);
-        for (int num : arr) {
-            heap.insert(num);
-        }
+//        for (int num : arr) {
+//            heap.insert(num);
+//        }
+        heap.build(arr);
+
         for (int i = 0; i < arr.length; i++) {
             arr[i] = heap.poll();
         }

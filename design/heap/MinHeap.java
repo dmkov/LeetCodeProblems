@@ -3,34 +3,47 @@ package design.heap;
 public class MinHeap {
 
     int capacity;
-    int length;
+    int n;
     int[] arr;
 
     public MinHeap(int capacity) {
         this.arr = new int[capacity + 1];
         this.capacity = capacity + 1;
-        this.length = 1;
+        this.n = 0;
     }
 
     public void insert(int val) {
-        if (capacity == length) {
+        if (capacity == n - 1) {
             throw new RuntimeException("Out of bounds... do upsize");
         }
-        arr[length] = val;
-        swim(length);
-        length++;
+        n++;
+        arr[n] = val;
+        swim(n);
+    }
+
+    public void build(int[] arr) {
+        this.arr = new int[arr.length + 1];
+        System.arraycopy(arr, 0, this.arr, 1, arr.length);
+
+        this.capacity = arr.length + 1;
+        this.n = arr.length;
+
+        for (int i = n / 2; i >= 1; i--) {
+            sink(i);
+        }
     }
 
     public int poll() {
-        if (length == 0) {
+        if (n == 0) {
             throw new RuntimeException("Out of bounds... do some inserts");
         }
 
-        exchange(1, length - 1);
-        length--;
+        int res = arr[1];
+        exchange(1, n);
+        n--;
         sink(1);
 
-        return arr[length];
+        return res;
     }
 
     private void swim(int pos) {
@@ -41,9 +54,9 @@ public class MinHeap {
     }
 
     private void sink(int pos) {
-        while (2 * pos < length - 1) {
+        while (2 * pos < n) {
             int i = pos * 2;
-            if (i + 1 < length - 1 && (arr[i + 1] < arr[i])) {
+            if (i + 1 <= n && (arr[i + 1] < arr[i])) {
                 i = i + 1;
             }
             if (arr[i] > arr[pos]) {
@@ -59,6 +72,4 @@ public class MinHeap {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
-
 }
