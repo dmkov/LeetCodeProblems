@@ -124,7 +124,7 @@ March 2020
 7 - 3 tasks from contest
 9 - BST, 1043
 10 - pramp, 273
-11 - 22
+11 - 22, heapsort, 1130
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -178,6 +178,7 @@ Done with help:
 1049 - did not consider idea of backpack and plus/minus sum
 212 - did not think about reverse Trie for words instead of grid
 37 - did not think about all edge cases in the solution
+1130 - did not consider neither solution with min heap nor stack
 
 Done by myself but need attention:
 122 - did mistake in calculations
