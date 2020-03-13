@@ -125,6 +125,7 @@ March 2020
 9 - BST, 1043
 10 - pramp, 273
 11 - 22, heapsort, 1130
+13 - topological sort
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
