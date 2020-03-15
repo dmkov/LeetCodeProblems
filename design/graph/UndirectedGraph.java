@@ -4,11 +4,11 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class UndirectedListGraph {
+public class UndirectedGraph {
 
     LinkedList<Integer>[] graph;
 
-    public UndirectedListGraph(int n) {
+    public UndirectedGraph(int n) {
         graph = new LinkedList[n+1];
         for (int i = 1; i <= n; i++) {
             graph[i] = new LinkedList<>();
@@ -37,7 +37,7 @@ public class UndirectedListGraph {
     }
 
     public static void main(String[] args) {
-        UndirectedListGraph graph = new UndirectedListGraph(4);
+        UndirectedGraph graph = new UndirectedGraph(4);
         graph.addEdge(2,3);
         graph.addEdge(1,3);
 

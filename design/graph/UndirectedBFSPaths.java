@@ -1,19 +1,15 @@
 package design.graph;
 
-import static java.util.Arrays.asList;
-
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 import java.util.Stack;
 
 public class UndirectedBFSPaths {
 
-    UndirectedListGraph graph;
+    UndirectedGraph graph;
     int src;
 
-    public UndirectedBFSPaths(UndirectedListGraph graph, int src) {
+    public UndirectedBFSPaths(UndirectedGraph graph, int src) {
         this.graph = graph;
         this.src = src;
     }
@@ -61,7 +57,7 @@ public class UndirectedBFSPaths {
     }
 
     public static void main(String[] args) {
-        UndirectedListGraph graph = new UndirectedListGraph(4);
+        UndirectedGraph graph = new UndirectedGraph(4);
         graph.addEdge(2,3);
         graph.addEdge(1,3);
 

@@ -7,10 +7,10 @@ import java.util.Set;
 
 public class UndirectedDFSPaths {
 
-    UndirectedListGraph graph;
+    UndirectedGraph graph;
     int src;
 
-    public UndirectedDFSPaths(UndirectedListGraph graph, int src) {
+    public UndirectedDFSPaths(UndirectedGraph graph, int src) {
         this.graph = graph;
         this.src = src;
     }
@@ -43,7 +43,7 @@ public class UndirectedDFSPaths {
     }
 
     public static void main(String[] args) {
-        UndirectedListGraph graph = new UndirectedListGraph(4);
+        UndirectedGraph graph = new UndirectedGraph(4);
         graph.addEdge(2,3);
         graph.addEdge(1,3);
 

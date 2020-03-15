@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-public class DirectedListGraph {
+public class DirectedGraph {
 
     class DirectedEdge {
         int from;
@@ -18,7 +18,7 @@ public class DirectedListGraph {
 
     List<DirectedEdge>[] edges;
 
-    public DirectedListGraph(int V) {
+    public DirectedGraph(int V) {
         this.edges = new List[V];
         for (int v = 0; v < V; v++) {
             this.edges[v] = new ArrayList<>();

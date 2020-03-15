@@ -125,7 +125,7 @@ March 2020
 9 - BST, 1043
 10 - pramp, 273
 11 - 22, heapsort, 1130
-13 - topological sort
+13 - topological sort, 54
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -222,6 +222,7 @@ Done by myself but need attention:
 1105 - needed help to define cache key in up to bottom solution, could not figure out bottom to up approach
 1181 - missed test case where phrase starts and ends with the same word (match with the word itself)
 1027 - done from the second attempt
+54  - requires additional check
 
 
 What was learned:
