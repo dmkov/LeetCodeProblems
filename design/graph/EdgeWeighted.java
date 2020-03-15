@@ -6,8 +6,8 @@ public class EdgeWeighted {
     int weight;
 
     public EdgeWeighted(int v, int u, int weight) {
-        this.u = u;
         this.v = v;
+        this.u = u;
         this.weight = weight;
     }
 

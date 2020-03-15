@@ -6,16 +6,6 @@ import java.util.Stack;
 
 public class DirectedGraph {
 
-    class DirectedEdge {
-        int from;
-        int to;
-
-        public DirectedEdge(int from, int to) {
-            this.from = from;
-            this.to = to;
-        }
-    }
-
     List<DirectedEdge>[] edges;
 
     public DirectedGraph(int V) {
