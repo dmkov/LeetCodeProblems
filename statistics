@@ -126,6 +126,7 @@ March 2020
 10 - pramp, 273
 11 - 22, heapsort, 1130
 13 - topological sort, 54
+15 - shortest paths, 18
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -180,6 +181,7 @@ Done with help:
 212 - did not think about reverse Trie for words instead of grid
 37 - did not think about all edge cases in the solution
 1130 - did not consider neither solution with min heap nor stack
+18  - did not think about n^3 solution. considered it as too complex
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -306,3 +308,4 @@ What was learned:
 1043 - for checking a higher bound in the interval iteration, use the second condition in if instead of max/min methods
 273 - edge cases can be stored in arrays instead of long switch/cases or if statements
 23  - with iterative solution check if it can be improved by sorting or priority queue
+18  - all 2-, 3-sum problems can be considered with hash map and two pointers solutions at the end
