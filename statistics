@@ -127,6 +127,7 @@ March 2020
 11 - 22, heapsort, 1130
 13 - topological sort, 54
 15 - shortest paths, 18
+16 - pramp, 364
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
