@@ -128,6 +128,7 @@ March 2020
 13 - topological sort, 54
 15 - shortest paths, 18
 16 - pramp, 364, 547
+17 - 759
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -310,3 +311,4 @@ What was learned:
 273 - edge cases can be stored in arrays instead of long switch/cases or if statements
 23  - with iterative solution check if it can be improved by sorting or priority queue
 18  - all 2-, 3-sum problems can be considered with hash map and two pointers solutions at the end
+759 - for sweep line algorithms we need to add all pointers, sort them and iterate then.

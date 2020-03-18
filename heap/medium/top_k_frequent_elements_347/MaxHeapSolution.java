@@ -1,4 +1,4 @@
-package hash_table.medium.top_k_frequent_elements_347;
+package heap.medium.top_k_frequent_elements_347;
 
 import java.util.ArrayList;
 import java.util.Comparator;

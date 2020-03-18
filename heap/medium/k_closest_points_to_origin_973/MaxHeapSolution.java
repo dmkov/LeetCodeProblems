@@ -1,4 +1,4 @@
-package hash_table.medium.k_closest_points_to_origin_973;
+package heap.medium.k_closest_points_to_origin_973;
 
 import java.util.HashMap;
 import java.util.Map;

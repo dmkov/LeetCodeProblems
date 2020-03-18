@@ -1,4 +1,4 @@
-package hash_table.medium.top_k_frequent_words_692;
+package heap.medium.top_k_frequent_words_692;
 
 import java.util.HashMap;
 import java.util.LinkedList;
