@@ -128,7 +128,7 @@ March 2020
 13 - topological sort, 54
 15 - shortest paths, 18
 16 - pramp, 364, 547
-17 - 759
+18 - 759, 981
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -184,6 +184,8 @@ Done with help:
 37 - did not think about all edge cases in the solution
 1130 - did not consider neither solution with min heap nor stack
 18  - did not think about n^3 solution. considered it as too complex
+981 - did not consider TreeMap class as a possible replacement of own implementation
+    - did not think about logs as a incrementation in the timestamp, so every next record should be automatically sorted
 
 Done by myself but need attention:
 122 - did mistake in calculations
