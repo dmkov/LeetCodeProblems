@@ -132,6 +132,7 @@ March 2020
 19 - pramp, tree map
 20 - radix sort, 98
 21 - contest, 1387
+22 - 855
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -189,6 +190,7 @@ Done with help:
 18  - did not think about n^3 solution. considered it as too complex
 981 - did not consider TreeMap class as a possible replacement of own implementation
     - did not think about logs as a incrementation in the timestamp, so every next record should be automatically sorted
+855 - found optimal solution but could not finish it because of a lot of restrictions in conditions
 
 Done by myself but need attention:
 122 - did mistake in calculations
