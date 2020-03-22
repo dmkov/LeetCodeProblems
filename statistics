@@ -131,6 +131,7 @@ March 2020
 18 - 759, 981
 19 - pramp, tree map
 20 - radix sort, 98
+21 - contest, 1387
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -232,7 +233,7 @@ Done by myself but need attention:
 1027 - done from the second attempt
 54  - requires additional check
 98  - the issue with MAX/MIN limits that can be in the tree nodes but should be extended in limits
-
+1387 - use primitives in the comparator, messed up with indexes for cached numbers
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
@@ -317,3 +318,4 @@ What was learned:
 23  - with iterative solution check if it can be improved by sorting or priority queue
 18  - all 2-, 3-sum problems can be considered with hash map and two pointers solutions at the end
 759 - for sweep line algorithms we need to add all pointers, sort them and iterate then.
+1387 - comparator does not work with primitives, wrap int number to the Integer
