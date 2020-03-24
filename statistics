@@ -133,6 +133,7 @@ March 2020
 20 - radix sort, 98
 21 - contest, 1387
 22 - 855, 85
+23 - 301
 24 - pramp, 518
 
 Done with help:
@@ -193,6 +194,7 @@ Done with help:
     - did not think about logs as a incrementation in the timestamp, so every next record should be automatically sorted
 855 - found optimal solution but could not finish it because of a lot of restrictions in conditions
 85  - did not think about simplifying task to the largest rectangle in the histogram
+301 - did not think about backtracking solution as not efficient. looped in the different direction
 
 Done by myself but need attention:
 122 - did mistake in calculations
