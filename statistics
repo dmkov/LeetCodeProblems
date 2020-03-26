@@ -326,3 +326,4 @@ What was learned:
 18  - all 2-, 3-sum problems can be considered with hash map and two pointers solutions at the end
 759 - for sweep line algorithms we need to add all pointers, sort them and iterate then.
 1387 - comparator does not work with primitives, wrap int number to the Integer
+substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
