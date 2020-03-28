@@ -1,8 +1,5 @@
 package dynamic.medium.last_stone_weight_ii_1049;
 
-import java.util.HashMap;
-import java.util.Map;
-
 /**
  1049. Last Stone Weight II
  https://leetcode.com/problems/last-stone-weight-ii/

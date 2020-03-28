@@ -1,6 +1,5 @@
 package dynamic.medium.last_stone_weight_ii_1049;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 

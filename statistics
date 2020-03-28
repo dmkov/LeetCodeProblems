@@ -135,6 +135,8 @@ March 2020
 22 - 855, 85
 23 - 301
 24 - pramp, 518
+26 - substring search algorithms
+27 - 10
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
