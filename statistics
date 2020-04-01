@@ -143,7 +143,7 @@ March 2020
 31 - 295, 1396
 
 April 2020
-1 - 1007, 297
+1 - 1007, 297, 362
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -342,3 +342,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 1396 - there is a Pair<Type, Type> class that can be used for tuples. Constructor and getKey()/getValue(), no setters
     - to do not use nested maps the concatenated string can be used for the key
 297 - split function returns array of string elements, there is no auto casting to numbers or so
+362 - when the description has some fixed range of data or time period - think about buckets
