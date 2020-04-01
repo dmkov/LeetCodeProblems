@@ -34,14 +34,23 @@ package greedy.medium.minimum_domino_rotations_for_equal_row_1007;
      1.1 Time Complexity is O(n)
      1.2 Space Complexity is O(1)
  2. Approach
-     2.1 For every a[i] there are two options: move it down if it is on the top or move to the top if it is on the bottom line.
-     2.2 We do not need to move items if a[i] == b[i], otherwise count both possibilities
+     2.1 There are 2 possible cases: 1) selected number equals top element or 2) selected number equals bottom element.
+        For the 1) case we just move to the next step. For 2) - we also increase counter.
+     2.2 We can choose first top or bottom elements for the selected number. In the second case we rotate first domino and
+        should increment counter from the start.
+     2.3 Repeat same checking for the bottom list of numbers.
  3. Implementation
      3.1 Check if given arrays are valid
-     3.1 Start two counter for the first element: 1) to move item down or 2) leave it on the top. Iterate through the array.
-     3.2 If a[i] == prev (and b[i] is different) count it as a possibility to move down
-     3.3 If b[i] == prev (and a[i] is different) count it as a possibility to move up
-     3.3 Return min sum of movements and repeat it for the first element in b array.
+     3.2 Get the min of 4 possible cases:
+        3.2.1 When A is the primary array, and selected element is A[0]
+        3.2.2 When A is the primary array, and selected element is B[0] (means we swapped the first domino)
+        3.2.3 When B is the primary array, and selected element is B[0]
+        3.2.4 When B is the primary array, and selected element is A[0] (means we swapped the first domino)
+     3.3 For every case in a separate method start iteration over the primary array:
+        3.3.1 If selected == a[i] -> continue to the next step
+        3.3.2 If selected == b[i] -> increment counter, continue to the next step
+        3.3.2 If selected does not equal neither a[i] nor b[i] -> return Integer.MAX_VALUE
+     3.4 Check for Integer.MAX_VALUE in the result and return -1 in this case.
  */
 
 class GreedySolution {
@@ -50,25 +59,26 @@ class GreedySolution {
             return -1;
         }
 
-        int result = Math.min(rotations(a, b), rotations(b, a));
-        return (result == Integer.MAX_VALUE) ? -1 : result;
+        int res = Math.min(
+                Math.min(check(a, b, a[0]), check(a, b, b[0])),
+                Math.min(check(b, a, a[0]), check(b, a, b[0]))
+        );
+
+        return (res == Integer.MAX_VALUE) ? -1 : res;
     }
 
-    private int rotations(int[] a, int[] b) {
-        int down = 1, up = 0;
-        int prev = a[0];
-        for (int i = 1; i < a.length; i++) {
-            if (prev == a[i] && prev != b[i]) {
-                down++;
-            } else if (prev != a[i] && prev == b[i]) {
-                up++;
-            } else if (prev != a[i] && prev != b[i]) {
-                up = Integer.MAX_VALUE;
-                down = Integer.MAX_VALUE;
-                break;
+    private int check(int[] a, int[] b, int num) {
+        int counter = 0;
+        for (int i = 0; i < a.length; i++) {
+            if (num == a[i]) {
+                continue;
+            } else if (num == b[i]) {
+                counter++;
+            } else {
+                return Integer.MAX_VALUE;
             }
         }
 
-        return Math.min(up, down);
+        return counter;
     }
 }

@@ -142,6 +142,9 @@ March 2020
 30 - KMP, mock, 1388
 31 - 295, 1396
 
+April 2020
+1 - 1007, 297
+
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
 11 - did not find the best solution (n^2 instead of n)
@@ -338,3 +341,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 295 - when we need to find median or work with the stream of data - we can probably use heaps
 1396 - there is a Pair<Type, Type> class that can be used for tuples. Constructor and getKey()/getValue(), no setters
     - to do not use nested maps the concatenated string can be used for the key
+297 - split function returns array of string elements, there is no auto casting to numbers or so
