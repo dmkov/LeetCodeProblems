@@ -145,6 +145,7 @@ March 2020
 April 2020
 1 - 1007, 297, 362
 2 - 334, 679
+3 - mock, 277
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -345,3 +346,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 297 - split function returns array of string elements, there is no auto casting to numbers or so
 362 - when the description has some fixed range of data or time period - think about buckets
 679 - to compare doubles use Double.compare() or (Math.abs(X - target) < precision)
+277 - iterative solution sometimes can be an answer, or after simple optimization it can be the right answer
