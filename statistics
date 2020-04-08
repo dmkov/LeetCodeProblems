@@ -211,6 +211,7 @@ Done with help:
 85  - did not think about simplifying task to the largest rectangle in the histogram
 301 - did not think about backtracking solution as not efficient. looped in the different direction
 1388 - could not figure out solution, did not start thinking in DP direction and then could not implement efficient backtracking
+378 - did not get idea with binary search. then was confused by returning the left pointer in the result
 
 Done by myself but need attention:
 122 - did mistake in calculations
