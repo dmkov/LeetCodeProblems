@@ -150,6 +150,7 @@ April 2020
 6 - 755, 909
 7 - mock, 378
 8 - 2 mocks, 1052
+9 - 207
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -259,6 +260,7 @@ Done by myself but need attention:
 1387 - use primitives in the comparator, messed up with indexes for cached numbers
 518 - did not think about knapsack solution and could not get to bottom-to-up solution
 909 - double check if we count intermediate transmissions or not (in other words if we need recursion there)
+207 - got idea of the cycles in graphs but did not think of DFS as for the solution from the beginning
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
