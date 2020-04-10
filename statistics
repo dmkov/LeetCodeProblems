@@ -151,7 +151,7 @@ April 2020
 7 - mock, 378
 8 - 2 mocks, 1052
 9 - 207, 1 mock
-10 - max flow
+10 - max flow, mock, 274
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
