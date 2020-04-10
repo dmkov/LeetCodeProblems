@@ -150,7 +150,8 @@ April 2020
 6 - 755, 909
 7 - mock, 378
 8 - 2 mocks, 1052
-9 - 207
+9 - 207, 1 mock
+10 - max flow
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -355,3 +356,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 362 - when the description has some fixed range of data or time period - think about buckets
 679 - to compare doubles use Double.compare() or (Math.abs(X - target) < precision)
 277 - iterative solution sometimes can be an answer, or after simple optimization it can be the right answer
+   - with bidirectional graphs always use visited array to avoid cycles in traversing
