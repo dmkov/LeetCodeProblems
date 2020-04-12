@@ -152,6 +152,7 @@ April 2020
 8 - 2 mocks, 1052
 9 - 207, 1 mock
 10 - max flow, 173, 274
+11 - 505, mock
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -262,6 +263,7 @@ Done by myself but need attention:
 518 - did not think about knapsack solution and could not get to bottom-to-up solution
 909 - double check if we count intermediate transmissions or not (in other words if we need recursion there)
 207 - got idea of the cycles in graphs but did not think of DFS as for the solution from the beginning
+505 - BFS path search should end when all nodes are visited, not when destination is reached
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
@@ -357,3 +359,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 679 - to compare doubles use Double.compare() or (Math.abs(X - target) < precision)
 277 - iterative solution sometimes can be an answer, or after simple optimization it can be the right answer
    - with bidirectional graphs always use visited array to avoid cycles in traversing
+505 - when we need to traverse 4 directions, keep 4 arrays with shifts to the current point and apply them in the loop
