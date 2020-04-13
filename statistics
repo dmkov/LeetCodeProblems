@@ -153,6 +153,7 @@ April 2020
 9 - 207, 1 mock
 10 - max flow, 173, 274
 11 - 505, mock
+10 - 1192
 13 - 97
 
 Done with help:
@@ -217,6 +218,7 @@ Done with help:
 1388 - could not figure out solution, did not start thinking in DP direction and then could not implement efficient backtracking
 378 - did not get idea with binary search. then was confused by returning the left pointer in the result
 97  - tried to solve as a linear problem with pointers, did not consider that there is branching when chars are equal
+1192 - did not get idea of Tarjan's algorithm
 
 Done by myself but need attention:
 122 - did mistake in calculations
