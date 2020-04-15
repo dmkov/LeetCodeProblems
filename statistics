@@ -156,6 +156,7 @@ April 2020
 12 - 1192
 13 - 97
 14 - 525, 127
+15 - 528, 42, 642
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -271,6 +272,7 @@ Done by myself but need attention:
 207 - got idea of the cycles in graphs but did not think of DFS as for the solution from the beginning
 505 - BFS path search should end when all nodes are visited, not when destination is reached
 127 - wrote BFS and Dijkstra with mistake on the updating child counter steps
+642 - complex structure led to the errors with pointers to the objects
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
@@ -371,3 +373,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
        when your approach does not work
 127 - with BFS or Dijkstra search always update counter of steps for child node when you decide to enqueue it.
       if it was not decreased, it could be pulled again with another link and updated twice with different values
+642  - in design problems try to make simple and clean structure even with additional properties to reduce code
