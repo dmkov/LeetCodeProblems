@@ -374,3 +374,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 127 - with BFS or Dijkstra search always update counter of steps for child node when you decide to enqueue it.
       if it was not decreased, it could be pulled again with another link and updated twice with different values
 642  - in design problems try to make simple and clean structure even with additional properties to reduce code
+678  - backtracking of continuous sequence of numbers can be replaced with two lo and hi boundaries and collected in O(n) time
