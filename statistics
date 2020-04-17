@@ -157,6 +157,8 @@ April 2020
 13 - 97
 14 - 525, 127
 15 - 528, 42, 642
+16 - 1 mock
+17 - 678, 76
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
