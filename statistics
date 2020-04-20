@@ -159,6 +159,8 @@ April 2020
 15 - 528, 42, 642
 16 - 1 mock
 17 - 678, 76, 92
+19 - 33
+20 - 336
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -275,6 +277,7 @@ Done by myself but need attention:
 505 - BFS path search should end when all nodes are visited, not when destination is reached
 127 - wrote BFS and Dijkstra with mistake on the updating child counter steps
 642 - complex structure led to the errors with pointers to the objects
+336 - was on the right direction with suffixes and prefixes but could not simplify it
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
