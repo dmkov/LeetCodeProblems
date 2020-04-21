@@ -160,7 +160,7 @@ April 2020
 16 - 1 mock
 17 - 678, 76, 92
 19 - 33
-20 - 336
+20 - 336, 1197
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
