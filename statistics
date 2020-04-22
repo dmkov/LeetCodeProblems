@@ -160,7 +160,8 @@ April 2020
 16 - 1 mock
 17 - 678, 76, 92
 19 - 33
-20 - 336, 1197
+20 - 336, 1197, 1008
+21 - 91, 4
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -226,6 +227,7 @@ Done with help:
 97  - tried to solve as a linear problem with pointers, did not consider that there is branching when chars are equal
 1192 - did not get idea of Tarjan's algorithm
 525 - did not think that states can be encoded by sum and that they are repeated
+4   - thought about two binary searches to find a median instead of one with finding the remaining items in the second arr
 
 Done by myself but need attention:
 122 - did mistake in calculations
