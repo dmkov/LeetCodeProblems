@@ -162,6 +162,7 @@ April 2020
 19 - 33
 20 - 336, 1197, 1008
 21 - 91, 4
+22 - 269, two easy
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -382,3 +383,5 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
       if it was not decreased, it could be pulled again with another link and updated twice with different values
 642  - in design problems try to make simple and clean structure even with additional properties to reduce code
 678  - backtracking of continuous sequence of numbers can be replaced with two lo and hi boundaries and collected in O(n) time
+269  - to remove element from map during iteration, use it = keySet().iterator(), it.hasNext() / it.next() and it.remove()
+     - to define cycles a DFS can be used with marking visiting nodes separately from visited and not visited
