@@ -164,6 +164,7 @@ April 2020
 21 - 91, 4
 22 - 269, two easy
 23 - 201, 68, 6
+24 - 244
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -282,6 +283,7 @@ Done by myself but need attention:
 127 - wrote BFS and Dijkstra with mistake on the updating child counter steps
 642 - complex structure led to the errors with pointers to the objects
 336 - was on the right direction with suffixes and prefixes but could not simplify it
+244 - messed up solutions, O(n+m) is smaller than O(nlogm) since it is binary logarithm
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
@@ -386,3 +388,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 678  - backtracking of continuous sequence of numbers can be replaced with two lo and hi boundaries and collected in O(n) time
 269  - to remove element from map during iteration, use it = keySet().iterator(), it.hasNext() / it.next() and it.remove()
      - to define cycles a DFS can be used with marking visiting nodes separately from visited and not visited
+244  - when we speak about logarithmic complexity - it is a binary logarithm (you can count number of steps dividing by two)
