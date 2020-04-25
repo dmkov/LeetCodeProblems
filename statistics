@@ -164,7 +164,8 @@ April 2020
 21 - 91, 4
 22 - 269, two easy
 23 - 201, 68, 6
-24 - 244
+24 - 244, 218
+25 - 55
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -284,6 +285,7 @@ Done by myself but need attention:
 642 - complex structure led to the errors with pointers to the objects
 336 - was on the right direction with suffixes and prefixes but could not simplify it
 244 - messed up solutions, O(n+m) is smaller than O(nlogm) since it is binary logarithm
+55  - got the main idea but could not implement index checking, failed on test cases
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
