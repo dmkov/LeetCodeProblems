@@ -166,6 +166,7 @@ April 2020
 23 - 201, 68, 6
 24 - 244, 218
 25 - 55
+26 - two easy, 1424
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -232,6 +233,7 @@ Done with help:
 1192 - did not get idea of Tarjan's algorithm
 525 - did not think that states can be encoded by sum and that they are repeated
 4   - thought about two binary searches to find a median instead of one with finding the remaining items in the second arr
+1424 - did not consider the idea of summing indexes to get the diagonal
 
 Done by myself but need attention:
 122 - did mistake in calculations
