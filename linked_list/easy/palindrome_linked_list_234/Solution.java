@@ -24,14 +24,8 @@ package linked_list.easy.palindrome_linked_list_234;
     1.2 Space Complexity is O(1)
  2. Approach
     2.1 This solution is based on iterating the list with two pointers. The task can be split into 3 subtasks:
-        find the middle of the list, reverse second part and compare first and second parts element by element.
-    2.2 Implementation
-        2.2.1 Check if head is null or if it consists of one element - return true
-        2.2.2 Define two pointer slow/fast, iterate slow by 1 and fast by 2 items per turn.
-            When fast is out of the list, slow is in the middle
-        2.2.3 Reverse all elements from slow to the end. Use two temporary variables - previous and next
-        2.2.4 Assign fast back to the head and compare item by item fast and slow lists.
-            If items do not equal - return false, otherwise - true at the end of the method.
+        find the middle of the list, reverse second part and compare first and second parts element by element
+        additionally restoring the list.
  */
 
 class Solution {
@@ -42,32 +36,42 @@ class Solution {
     }
 
     public boolean isPalindrome(ListNode head) {
-        if (head == null || head.next == null) {
+        if (head == null) {
             return true;
         }
 
-        ListNode slow = head;
         ListNode fast = head;
+        ListNode slow = head;
+        ListNode reversed = null;
+
         while (fast != null && fast.next != null) {
-            slow = slow.next;
             fast = fast.next.next;
+
+            ListNode temp = slow.next;
+            slow.next = reversed;
+            reversed = slow;
+
+            slow = temp;
         }
-        ListNode prev = null;
+
+        ListNode restored = slow;
+        if (fast != null) {
+            slow = slow.next;
+        }
+
         while (slow != null) {
-            ListNode next = slow.next;
-            slow.next = prev;
-            prev = slow;
-            slow = next;
-        }
-        slow = prev;
-        fast = head;
-        while (slow != null && fast != null) {
-            if (slow.val != fast.val) {
+            if (slow.val != reversed.val) {
                 return false;
             }
+
             slow = slow.next;
-            fast = fast.next;
+
+            ListNode temp = reversed.next;
+            reversed.next = restored;
+            restored = reversed;
+            reversed = temp;
         }
+
         return true;
     }
 }
