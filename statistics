@@ -167,6 +167,7 @@ April 2020
 24 - 244, 218
 25 - 55
 26 - two easy, 1424
+27 - 1143
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -288,6 +289,7 @@ Done by myself but need attention:
 336 - was on the right direction with suffixes and prefixes but could not simplify it
 244 - messed up solutions, O(n+m) is smaller than O(nlogm) since it is binary logarithm
 55  - got the main idea but could not implement index checking, failed on test cases
+1143 - got the idea of DP but stuck on the point of increasing the previous value (what is the previous result for substep)
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
@@ -393,3 +395,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 269  - to remove element from map during iteration, use it = keySet().iterator(), it.hasNext() / it.next() and it.remove()
      - to define cycles a DFS can be used with marking visiting nodes separately from visited and not visited
 244  - when we speak about logarithmic complexity - it is a binary logarithm (you can count number of steps dividing by two)
+1143 - almost every dp matrix can be optimized in space complexity by adding a prev[] array for the last row if it is needed
