@@ -169,6 +169,10 @@ April 2020
 26 - two easy, 1424
 27 - 1143
 28 - contest, 41
+29 - 124
+
+May
+1 - salesman, 43
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -292,6 +296,7 @@ Done by myself but need attention:
 55  - got the main idea but could not implement index checking, failed on test cases
 1143 - got the idea of DP but stuck on the point of increasing the previous value (what is the previous result for substep)
 41  - missed test case with numbers equal to the length of the array ([1])
+43  - did not consider simpler solution with storing results in the integer array
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
