@@ -399,3 +399,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 244  - when we speak about logarithmic complexity - it is a binary logarithm (you can count number of steps dividing by two)
 1143 - almost every dp matrix can be optimized in space complexity by adding a prev[] array for the last row if it is needed
      - LinkedHashSet can be used when we need to save the order of inserts
+tree - with binary trees think about recursive and DFS approach first, BFS and iterative traverse usually a bit complicated
