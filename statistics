@@ -174,6 +174,8 @@ April 2020
 May
 1 - salesman, 43
 4 - 476, 752
+6 - mock, 315
+7 - 843
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -242,6 +244,8 @@ Done with help:
 4   - thought about two binary searches to find a median instead of one with finding the remaining items in the second arr
 1424 - did not consider the idea of summing indexes to get the diagonal
 752 - did not get idea of BFS, also understood description wrong from the very beginning
+315 - did not consider approach with mergesort movements
+843 - did not consider idea with maximization probability of choose
 
 Done by myself but need attention:
 122 - did mistake in calculations
