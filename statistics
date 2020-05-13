@@ -177,6 +177,8 @@ May
 6 - mock, 315
 7 - 843
 11 - 472
+12 - 300
+13 - 354
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -248,6 +250,7 @@ Done with help:
 315 - did not consider approach with mergesort movements
 843 - did not consider idea with maximization probability of choose
 472 - did not consider neither dp nor trie solution
+354 - did not get idea with sorting items and searching them using a binary search
 
 Done by myself but need attention:
 122 - did mistake in calculations
