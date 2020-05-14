@@ -179,7 +179,7 @@ May
 11 - 472
 12 - 300
 13 - 354
-14 - 286
+14 - 286, 1406
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -309,6 +309,7 @@ Done by myself but need attention:
 1143 - got the idea of DP but stuck on the point of increasing the previous value (what is the previous result for substep)
 41  - missed test case with numbers equal to the length of the array ([1])
 43  - did not consider simpler solution with storing results in the integer array
+1406 - did not get to dp solution from backtracking
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
@@ -417,3 +418,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 1143 - almost every dp matrix can be optimized in space complexity by adding a prev[] array for the last row if it is needed
      - LinkedHashSet can be used when we need to save the order of inserts
 tree - with binary trees think about recursive and DFS approach first, BFS and iterative traverse usually a bit complicated
+1406 - we can get from backtracking to DP if imagine how memo is populated from end to the beginning
