@@ -185,7 +185,7 @@ May
 19 - 2 mocks
 20 - 2 mocks
 21 - mock
-22 - 410
+22 - 410, 72
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -317,6 +317,7 @@ Done by myself but need attention:
 41  - missed test case with numbers equal to the length of the array ([1])
 43  - did not consider simpler solution with storing results in the integer array
 1406 - did not get to dp solution from backtracking
+72 - almost solved but did not figured out of using diagonal element
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
