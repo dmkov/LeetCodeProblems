@@ -186,6 +186,7 @@ May
 20 - 2 mocks
 21 - mock
 22 - 410, 72
+25 - 340
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -318,6 +319,7 @@ Done by myself but need attention:
 43  - did not consider simpler solution with storing results in the integer array
 1406 - did not get to dp solution from backtracking
 72 - almost solved but did not figured out of using diagonal element
+340 - did not consider approach with LinkedHashMap (LRU cache)
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
@@ -427,3 +429,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
      - LinkedHashSet can be used when we need to save the order of inserts
 tree - with binary trees think about recursive and DFS approach first, BFS and iterative traverse usually a bit complicated
 1406 - we can get from backtracking to DP if imagine how memo is populated from end to the beginning
+340  - LinkedHashMap is a combination of a linked list and hashmap (LRU cache)
