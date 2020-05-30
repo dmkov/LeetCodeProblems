@@ -187,6 +187,7 @@ May
 21 - mock
 22 - 410, 72
 25 - 340
+30 - 329
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -430,3 +431,4 @@ substring - basic ASCII - 128 (from 0 to 127), extended - 256 (from 128 to 255)
 tree - with binary trees think about recursive and DFS approach first, BFS and iterative traverse usually a bit complicated
 1406 - we can get from backtracking to DP if imagine how memo is populated from end to the beginning
 340  - LinkedHashMap is a combination of a linked list and hashmap (LRU cache)
+329  - as opposite of backtracking and dfs always think for dp and topological sort
