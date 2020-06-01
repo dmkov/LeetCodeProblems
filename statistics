@@ -188,6 +188,10 @@ May
 22 - 410, 72
 25 - 340
 30 - 329, 359
+31 - 57
+
+June
+1 - 1110
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -321,6 +325,7 @@ Done by myself but need attention:
 1406 - did not get to dp solution from backtracking
 72 - almost solved but did not figured out of using diagonal element
 340 - did not consider approach with LinkedHashMap (LRU cache)
+57  - messed up different cases
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
@@ -432,3 +437,4 @@ tree - with binary trees think about recursive and DFS approach first, BFS and i
 1406 - we can get from backtracking to DP if imagine how memo is populated from end to the beginning
 340  - LinkedHashMap is a combination of a linked list and hashmap (LRU cache)
 329  - as opposite of backtracking and dfs always think for dp and topological sort
+57   - ArrayList can be converted to array simply with toArray(new int[size])
