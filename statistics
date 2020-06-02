@@ -192,6 +192,7 @@ May
 
 June
 1 - 1110
+2 - 727
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -326,6 +327,7 @@ Done by myself but need attention:
 72 - almost solved but did not figured out of using diagonal element
 340 - did not consider approach with LinkedHashMap (LRU cache)
 57  - messed up different cases
+727 - dp approach is not trivial and a bit confusing
 
 What was learned:
 102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
