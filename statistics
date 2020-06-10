@@ -193,6 +193,7 @@ May
 June
 1 - 1110
 2 - 727
+10 - 128
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -266,6 +267,7 @@ Done with help:
 472 - did not consider neither dp nor trie solution
 354 - did not get idea with sorting items and searching them using a binary search
 410 - did not consider idea with binary search, also did not complete dp solution by myself
+128 - did not have time to finish hashmap approach
 
 Done by myself but need attention:
 122 - did mistake in calculations
