@@ -194,6 +194,7 @@ June
 1 - 1110
 2 - 727
 10 - 128
+12 - 1411
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -268,6 +269,7 @@ Done with help:
 354 - did not get idea with sorting items and searching them using a binary search
 410 - did not consider idea with binary search, also did not complete dp solution by myself
 128 - did not have time to finish hashmap approach
+1411 - implemented backtracking but could not find a way too memoize it
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -442,3 +444,4 @@ tree - with binary trees think about recursive and DFS approach first, BFS and i
 340  - LinkedHashMap is a combination of a linked list and hashmap (LRU cache)
 329  - as opposite of backtracking and dfs always think for dp and topological sort
 57   - ArrayList can be converted to array simply with toArray(new int[size])
+1411 - after solving a backtracking task, always check memo/dp approach
