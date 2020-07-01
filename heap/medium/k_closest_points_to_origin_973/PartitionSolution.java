@@ -50,54 +50,43 @@ import java.util.Arrays;
 
 class PartitionSolution {
     public int[][] kClosest(int[][] points, int k) {
-        int[][] result = new int[k][];
-        if (k == 0 || points == null || points.length == 0
-                || points[0] == null || points[0].length == 0) {
-            return result;
+        if (points == null || points.length == 0 || points.length < k) {
+            return null;
         }
 
-        partition(points, k);
-
-        return Arrays.copyOfRange(points, 0, k);
-    }
-
-    private void partition(int[][] arr, int k) {
-        int left = 0;
-        int right = arr.length - 1;
-        while (left <= right) {
-            int mid = partition(arr, left, right);
-            if (mid == k - 1) {
-                break;
-            } else if (mid < k - 1) {
-                left = mid + 1;
-            } else if (mid > k - 1) {
-                right = mid - 1;
+        int left = 0, right = points.length - 1, pos = -1;
+        while (pos + 1 != k) {
+            pos = partition(points, left, right);
+            if (pos + 1 > k) {
+                right = pos - 1;
+            } else if (pos + 1 < k) {
+                left = pos + 1;
             }
         }
+
+        return Arrays.copyOfRange(points, 0, pos + 1);
     }
 
-    private int partition(int[][] arr, int start, int end) {
-        int i = start - 1;
-        int j = i + 1;
-        int[] p = arr[end];
-
-        while (j < end) {
-            if (getDistance(arr[j]) < getDistance(p)) {
-                i++;
-                int[] temp = arr[j];
-                arr[j] = arr[i];
-                arr[i] = temp;
+    private int partition(int[][] arr, int left, int right) {
+        int i = left;
+        int j = left;
+        while (i < right) {
+            if (Double.compare(getDistance(arr[i]), getDistance(arr[right])) <= 0) {
+                int[] temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+                j++;
             }
-            j++;
+            i++;
         }
-        i++;
-        arr[end] = arr[i];
-        arr[i] = p;
+        int[] temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
 
-        return i;
+        return j;
     }
 
-    private double getDistance(int[] point) {
-        return Math.sqrt(Math.pow(point[0], 2) + Math.pow(point[1], 2));
+    private double getDistance(int[] a) {
+        return Math.sqrt(a[0] * a[0] + a[1] * a[1]);
     }
 }

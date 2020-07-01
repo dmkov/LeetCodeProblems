@@ -195,6 +195,10 @@ June
 2 - 727
 10 - 128
 12 - 1411
+30 - 1004, 973
+
+July
+1 - 8, 953
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -445,3 +449,4 @@ tree - with binary trees think about recursive and DFS approach first, BFS and i
 329  - as opposite of backtracking and dfs always think for dp and topological sort
 57   - ArrayList can be converted to array simply with toArray(new int[size])
 1411 - after solving a backtracking task, always check memo/dp approach
+953 - every time when you parse string and map characters, you can use simple int[26] array
