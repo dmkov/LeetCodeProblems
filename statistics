@@ -198,7 +198,8 @@ June
 30 - 1004, 973
 
 July
-1 - 8, 953
+1 - 8, 953, 218
+2 - 88, 215, 1249, 986
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -274,6 +275,7 @@ Done with help:
 410 - did not consider idea with binary search, also did not complete dp solution by myself
 128 - did not have time to finish hashmap approach
 1411 - implemented backtracking but could not find a way too memoize it
+1249 - did not think of stack approach
 
 Done by myself but need attention:
 122 - did mistake in calculations
@@ -450,3 +452,4 @@ tree - with binary trees think about recursive and DFS approach first, BFS and i
 57   - ArrayList can be converted to array simply with toArray(new int[size])
 1411 - after solving a backtracking task, always check memo/dp approach
 953 - every time when you parse string and map characters, you can use simple int[26] array
+1249 - always try to fit stack when you have task with parentheses
