@@ -200,6 +200,9 @@ June
 July
 1 - 8, 953, 218
 2 - 88, 215, 1249, 986
+3 - 42
+4 - 67
+5 - 314, 987
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
@@ -276,6 +279,7 @@ Done with help:
 128 - did not have time to finish hashmap approach
 1411 - implemented backtracking but could not find a way too memoize it
 1249 - did not think of stack approach
+987 - did get the idea with sorting by 3 parameters
 
 Done by myself but need attention:
 122 - did mistake in calculations
