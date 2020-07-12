@@ -203,6 +203,8 @@ July
 3 - 42
 4 - 67
 5 - 314, 987
+6 - 211, 125, 158, 621, 270
+12 - 311
 
 Done with help:
 204 - did not pass timeout (non efficient solution with hashmap)
