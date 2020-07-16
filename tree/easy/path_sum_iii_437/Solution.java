@@ -40,7 +40,7 @@ import java.util.Map.Entry;
 
  1. Complexity
     1.1 Time Complexity is O(n)
-    1.2 Space Complexity is O(1)
+    1.2 Space Complexity is O(n)
  2. Approach
     2.1 This solution is based on the idea of storing preSum for every node in the tree (check implementation)
         Alternative solution is to store sum in array and increment it recursively for the left and right nodes
