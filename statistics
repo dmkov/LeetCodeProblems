@@ -210,35 +210,15 @@ July
 Done with help:
 437 - did not consider cumulative sum (calculate total with the current node, store it in the hash map and then subtract target from total sum, looking for previous elements in the hash map)
 441 - did not know formula for arithmetic progression (k(k+1)/2 = number of elements)
-234 - did not consider possible solution with slow and fast pointers. remind part to reverse lists.
-136 - did not think about possible XOR operation
+96 - when you need to get some data or update tree (BST), think of its array representation
 581 - did not consider option to clone and sort array. for left/right bounds did not think about max/min elements
-70 - did not find the pattern last steps plus one before the last
-101 - did not consider idea with stack. for recursive solution there is much simpler approach than StringBuilder
-326 - did not consider logarithmic solution. solved with the loop
-287 - did not consider the second part where entrance to the loop should be found
-96 - issues with combinatorics and BST definition to select the root node
-222 - did not consider option to binary search in the tree
+222 - to get to the required node (index) in the tree use the same approach as binary search (go to left or right depending on result)
 889 - did not consider option to search for the root node in post-ordered tree.
-103 - did not consider solution with two stacks
-94 - did not consider solution with the stack
-341 - thought about empty list as a possible null in the result.
-259 - in-built sorting for collections
-347 - did not consider simpler PriorityQueue solution
-401 - did not consider that permutation can be done with backtracking approach
-3   - did not consider that we need two pointers and check again already passed characters for the new set
+347 - for QuickSelect algorithm shift left and right boundaries to pivot + 1 / pivot - 1
 957 - did not think about brute force loop as of solution and sis not improve it with memoization
 139 - did not think about memoization in the loop
-152 - did not consider solution with tracking min value for negative numbers
-767 - could not find final solution to populate string from the array
 5   - could not find the memoization pattern
-357 - did not consider that previous combinations should be added to the current product
-146 - did not consider idea to build own linked list instead of using LinkedList class
-260 - did not consider if condition in bitwise operations to filter numbers by selected bit
-959 - did not consider union find approach to link nodes
-503 - too complex cases with the stack usage
-1130 - could not find a solution, returned back to the task couple times
-560 - did not think about approach with cumulative sum of subarray
+260 - last bit can be extracted from number by (~x + 1)
 1155 - did not get idea of dp and messed up with memoization approach
 907 - did not consider idea with two stacks in once
 22  - did not consider simple idea with counting brackets. in dp version did not consider concat "(())(())" test case
@@ -250,13 +230,11 @@ Done with help:
 1049 - did not consider idea of backpack and plus/minus sum
 212 - did not think about reverse Trie for words instead of grid
 37 - did not think about all edge cases in the solution
-1130 - did not consider neither solution with min heap nor stack
 18  - did not think about n^3 solution. considered it as too complex
 981 - did not consider TreeMap class as a possible replacement of own implementation
     - did not think about logs as a incrementation in the timestamp, so every next record should be automatically sorted
 855 - found optimal solution but could not finish it because of a lot of restrictions in conditions
-85  - did not think about simplifying task to the largest rectangle in the histogram
-301 - did not think about backtracking solution as not efficient. looped in the different direction
+85  - to get the max rectangle in histogram, use one monotone increasing stack but check it inclusively at arr.length position
 1388 - could not figure out solution, did not start thinking in DP direction and then could not implement efficient backtracking
 378 - did not get idea with binary search. then was confused by returning the left pointer in the result
 97  - tried to solve as a linear problem with pointers, did not consider that there is branching when chars are equal
@@ -266,15 +244,12 @@ Done with help:
 1424 - did not consider the idea of summing indexes to get the diagonal
 752 - did not get idea of BFS, also understood description wrong from the very beginning
 315 - did not consider approach with mergesort movements
-843 - did not consider idea with maximization probability of choose
 472 - did not consider neither dp nor trie solution
 354 - did not get idea with sorting items and searching them using a binary search
 410 - did not consider idea with binary search, also did not complete dp solution by myself
 128 - did not have time to finish hashmap approach
 1411 - implemented backtracking but could not find a way too memoize it
 1249 - did not think of stack approach
-987 - did get the idea with sorting by 3 parameters
-523 - did not get idea with cumulative sum
 287 - did not consider Floyd algorithm to find the duplicated number
 
 Done by myself but need attention:
@@ -284,28 +259,16 @@ Done by myself but need attention:
 35  - in binary search left pointer is always shows to the next element after the last mid if it is not found
 367 - overflow for integer (mid*mid). always consider overflows and edge cases.
 645 - atfer modifying numbers by indexes in place, always take Math.abs value, since you can face negative index
-160 - intersection of linked list can be checked using the length of lists and shift for the bigger list.
-448 - after modification of the current list, we need to take abs() value to avoid negatives and index out of bounds
-538 - initially did not think about simple right-order traversal
-169 - check Boyer-Moore Voting Algorithm for more efficient space usage
+234 - when reversing a linked list, use temp to store next.next, then relink node and next.
+221 - think more about square, you need to base on right, top and previous diagonal elements
+230 - to make an elegant iterative traverse use stack (while node is not null, assign node = node.left or right)
+494 - instead of recursion tree of decisions can be built with iterative approach and array (continuously increasing size=size*2)
 543 - diameter for tree is sum of children depths for every node
-21 - did not consider that should return first node of the result
-230 - more elegant way of in-order traverse
-430 - did not consider idea to reorder list with the stack
-10 - did not consider that '*' quantifier can be matched 0 string. integer array for memo.
+10 - pattern matcher is simpler using backtracking than dp. for dp should start from the end of the square
 240 - did not consider better idea with search space reduction algorithm
-973 - divide and conquer (partitioning) is more efficient than sorting
 31  - reverse items can sort elements in descending order with O(n) instead of O(nlog(n))
-56  - if crossing is found, check the max of both ends in case if one interval is inside the other.
-636 - the main issue was due to the interval time calculation and messing indexes
-236 - did not think about more efficient option without stack
+138 - efficient way to clone the linked list is to use the list itself with next nodes and then unlink them (alternative to map)
 318 - did not think about simple iteration inside the array, did not use array to store lengths
-78  - did not consider option with bitwise mask
-256 - modified dp before ending of the iteration and messed up remaining calculations
-994 - should think better about edge cases
-322 - the upper bound in 'bottom to top' approach may lead to overflow after adding a new coin
-199 - edge case when the left node has deeper subtree than the right one
-1007 - did not consider all test cases
 856 - did not consider simpler solution with bitwise shift
 545 - edge case for the binary tree, when not all leaves are not on the same level
 39  - initial version of code allowed duplicates in the result
@@ -323,7 +286,6 @@ Done by myself but need attention:
 909 - double check if we count intermediate transmissions or not (in other words if we need recursion there)
 207 - got idea of the cycles in graphs but did not think of DFS as for the solution from the beginning
 505 - BFS path search should end when all nodes are visited, not when destination is reached
-127 - wrote BFS and Dijkstra with mistake on the updating child counter steps
 642 - complex structure led to the errors with pointers to the objects
 336 - was on the right direction with suffixes and prefixes but could not simplify it
 244 - messed up solutions, O(n+m) is smaller than O(nlogm) since it is binary logarithm
@@ -339,63 +301,41 @@ Done by myself but need attention:
 50  - need to revisit iterative approach
 
 What was learned:
-102 - 1) There is no Queue class, only interface. Use LinkedList for implementation
-      3) Level traverse can be done with one queue and without recursion. Use queue.size() to split the current level
-         from new elements.
 222 - Math.pow - returns double and should be casted to int
-    - name of traverses
-10  - substring() method with one argument for the string.
-    - we can use 2d integer array for memo if we have pair of values
 889 - there is Arrays.copyOfRange() method that can be used to make copies in recursive calls
-103 - stack methods pop() and push()
-94  - iterative traverse of the tree can be done with a stack
 112 - object does not have default value - assign it to null manually (initialization error)
 341 - list.iterator() can be used with next() and hasNext() methods
     - properties of the class are initialized to null (with no initialization error at startup)
-191 - integer number consist of 32 bits
-    - all bitwise operation '(n & 1) == 1' should be always put into brackets in logical condition
+191 - all bitwise operation '(n & 1) == 1' should be always put into brackets in logical condition
 190 - after masking the bit, compare it with '0' and not '> 0' because of numbers with leading '1' are negative.
 240 - if description says that the data is sorted the task almost always can be solved with the binary search.
-347 - in-built PriorityQueue class to get the max "k" elements. Use it for interface to have poll() and add() methods.
-401 - if we need only one bit in the number, we can use integer presentation {1, 2, 4, 8 ...}.
-2   - to get modulo (%) from dividing by 10 we can always perform (x % 10). If it is less than 10, it will return the current value
 3   - array with ASCII codes as indexes can be used to compare characters in string. Alphabet consists of 26 letters, 'A' starts at 65, 'a' at 97
 973 - to initiate two-dimensional array the first dimension length should be specified (int[][] arr = new int[X][])
     - instead of creating every subarray manually, it can be done by specifying second length (int[][] arr = new int[X][Y])
     - comparator returns int but if we have float values they should be additionally casted or own logic should be placed there
-    - always check the variable types!
     - heapsort is better than quicksort if we need only first K elements (NlogK complexity)
-1099 - if we need to find element in the array, the worst case is to sort it and find the value with binary search. it gives nlogn.
+1099 - do not forget about count sort or bucket sort if range of occurrences is fixed and not huge.
 957 - simply and brute force iterating can be also an answer but with memoization we can do it an efficient solution
     - always start with the naive solution and try to improve it
-937 - Arrays.sort can be done with the range
 49  - Nested structures should not be specified in variable initialization (List<List<String>> res = new ArrayList<>());
-31  - To sort elements in descending order we can reverse them to make ascending order with O(n)
-56  - for the task with intervals create one test case where one interval inside another
+56  - another pattern for overlapping is union find algorithm
 139 - when you iterate options always think for memoization. it can improve even brute force solution
     - if we have possible combinations in the description, the task probably can be solved with the dynamic programming
-120 - try to reverse order in dp tasks, it might be more simpler and shorter
-    - if bounds are complex, try to add if statements (even ternary version) for edge cases
-636 - always check variable types and types of function results with extra attention
-236 - if you need to return multiple results from the method, think about class property to store results
-318 - think about simple iteration first and then do optimization step by step
-389 - difference between strings can be found using bitwise ^ for all characters in both strings
+120 - every time when we need to traverse tree, matrix or triangle level by level and work with cumulative sum, dp approach can be applied
+318 - always think about brute force approach first and then do optimization step by step
+389 - single difference between sets/sum can be found using bitwise ^ for all characters in both collections
 767 - if not sure about converting types (for example int to char) - use casting, (char) for example
 5   - for dp tasks, try to solve it with the array for memoization or matrix with results to compute and use in the next iterations
     - try to point to all facts that you know - tell what you see and try to apply it somehow for the solution
 256 - optimization migth play bad thing, try to keep code as simple as possible, even if it is not so clean
-71  - string builder prepending can be done with insert(0, string) but it is better to avoid it and simply do string concating
-146 - in design think about what data structure provide what time complexity, try to narrow to them in the solution
-994 - always think about edge cases, especially in easy task. check all of them in debugging phase
-20  - mod operation is '%' (not x mod y :))
 415 - the overflow from sum is named 'carry' :)
-819 - simply regexp can help in the basic actions like word splitting
-322 - always check for integer overflow after adding a new amount to the input parameters
-    - primitive types in the array could not be sorted using a comparator
+124 - Math.max(getFunctionResult(), 0) can be used instead of condition if (x > 0)
+322 - primitive types in the array could not be sorted using a comparator
 969 - if use Map.Entry always specify type in generic Map.Entry<Integer, Integer>
     - PriorityQueue by default use Arrays.sort (so it is min heap). To use as max heap a comparator is needed
     - Integer and Double should be compared usng equals, not ==
 398 - random() function returns the double result and should be cast to int additionally
+    - when we need to return number with incremental probability - (result = ((int)(Math.random() * occur) == 0) ? i : result)
 907 - monotone stack can be easily used to find next/previous smallest elements in the array
 22  - think about simple brute force solution, do not try to improve everything from the beginning
 1348 - even for hard task, try to implement the brute force solution
@@ -416,8 +356,7 @@ What was learned:
     - if work with string characters in arrays, do not forget to subtract 'a' char from index
 1105 - for dp cache always count position and the current state of the elements
 1043 - for checking a higher bound in the interval iteration, use the second condition in if instead of max/min methods
-273 - edge cases can be stored in arrays instead of long switch/cases or if statements
-23  - with iterative solution check if it can be improved by sorting or priority queue
+23  - merge k sorted lists: priority queue, merge one by one, divide & conquer, manually find the next node - give different options
 18  - all 2-, 3-sum problems can be considered with hash map and two pointers solutions at the end
 759 - for sweep line algorithms we need to add all pointers, sort them and iterate then.
 1387 - comparator does not work with primitives, wrap int number to the Integer
@@ -452,3 +391,4 @@ tree - with binary trees think about recursive and DFS approach first, BFS and i
 953 - every time when you parse string and map characters, you can use simple int[26] array
 1249 - always try to fit stack when you have task with parentheses
 523  - if tasks requires a sum of continuous subarray, think about cumulative sum and hashmap to define the difference
+270  - when estimate time complexity for tree traversal - it is H, and logN only in balanced tree

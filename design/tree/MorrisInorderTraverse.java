@@ -31,7 +31,7 @@ public class MorrisInorderTraverse {
              /   \
             2      3
           /  \
-              5 - 1
+         4    5
         */
         TreeNode root = new TreeNode(1);
         root.left = new TreeNode(2);

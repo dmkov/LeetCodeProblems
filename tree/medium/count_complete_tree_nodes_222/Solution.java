@@ -1,8 +1,5 @@
 package tree.medium.count_complete_tree_nodes_222;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  222. Count Complete Tree Nodes
  https://leetcode.com/problems/count-complete-tree-nodes/
